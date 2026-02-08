@@ -1,0 +1,17 @@
+#include <iostream>
+#include <vector>
+#include <string>
+std::string longestString(std::vector<<std::string>strings) {
+    std::string longestn="";
+    for(std::string s :string) {
+        if(s.lenght()>longest.lenght()) {
+            longest=s;
+        }
+    }
+    return longest;
+}
+int main() {
+    std::vector<<std::string>strings={"apple","banana","cherry"};
+    std::cout <<longestString(strings) << std::endl; //output:"banana"
+    return 0;
+}

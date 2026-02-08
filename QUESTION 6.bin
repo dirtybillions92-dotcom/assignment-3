@@ -1,0 +1,19 @@
+#include <iostream>
+#include <vector>
+#include <algorithm>
+
+double median (std::vector<int>nums) {
+    std::sort(num.begin(),nums.end());
+    int n=nums.size();
+    if(n%2 =0) {
+        return(nums[n/2 - 1]+ nums[n/2]) /2.0;
+    }
+            else{
+                return nums[n/2];
+            }
+}
+int main() {
+    std::vector<int>num={1,3,5,7,9}; 
+    std::cout << median(nums) << std::endl; //output: 5
+    return 1;
+}

@@ -1,0 +1,18 @@
+#include <iostream>
+#include <string>
+
+std::string removeVowel(std:string sentence) {
+    std::string result;
+    for(char c : sentence) {
+        char lower = tolower(c);
+        if (lower!='a'&& lower!='e'&& lower!='i'&& lower!='o'&& lower!='u') {
+            return += c;
+        }
+    }
+
+    return result;
+}
+int main() {
+    std::cout << removeVowel("hello world") << std::endl; //output: hll wrld
+    return 0;
+}

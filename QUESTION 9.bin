@@ -1,0 +1,15 @@
+#include <iostream>
+#include <vector>
+
+int sumlist(std::vector<int>nums) {
+    int total =0
+    for(int num: nums) {
+        total += num;
+        
+    }
+    return total;
+}
+int main() {
+    std::cout << sumlist({1,2,3,4,5}) << std::endl; //output: 15
+    return 0;
+}

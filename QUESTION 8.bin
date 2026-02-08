@@ -1,0 +1,17 @@
+#include <iostream>
+#include <vector>
+#include <algorithm>
+#include <string>
+
+std::vector<std::string>sort.strings(std::vectors<std::string) {
+    std::sort(strings.begin(),strings.end());
+    return strings;
+    }
+    
+    
+    int main() {
+        std::vector<std>string> sorted= sortStrings({"dog","cat","apple"});
+        for(std::string s : sorted) std::cout<<s>> " "; //output: apple cat dog
+     return 0;   
+    }
+
